@@ -1,7 +1,6 @@
- 
 import 'package:binance_ticker/binance_ticker.dart';
 import 'package:flutter/material.dart';
- 
+
 void main() {
   runApp(const MyApp());
 }
@@ -34,9 +33,9 @@ class _ExampleTickerState extends State<ExampleTicker> {
     return Scaffold(
         appBar: AppBar(),
         body: Column(
-          children: const [
+          children: [
             BinanceTicketWidget(
-
+              pairList: const ['btcusdt', 'ethusdt'],
               pair: 'ethusdt',
             )
           ],

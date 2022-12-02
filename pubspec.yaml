@@ -1,6 +1,6 @@
 name: binance_ticker
 description: Custom Widget to show Binance Ticker price for all binance pairs
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/akflutterdev123/Binance_ticker.git
 
 environment:
